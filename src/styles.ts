@@ -6,7 +6,7 @@ export default StyleSheet.create({
     marginTop: vh(7),
     flex: 1,
     backgroundColor: '#fff',
-    justifyContent: 'flex-start',
+    justifyContent: 'space-evenly',
     alignItems: 'flex-start',
   },
   itemContainer: {
@@ -29,6 +29,8 @@ export default StyleSheet.create({
     marginLeft: vh(2)
   },
   buttonRound:{
-    borderRadius:10
+    alignSelf: 'center',
+    borderRadius:100,
+    backgroundColor: 'gray'
   }
 });

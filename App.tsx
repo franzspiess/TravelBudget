@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text, View, Button } from 'react-native';
+import { View, Button } from 'react-native';
 import styles from './src/styles'
 
-import TravelItemContainer from './src/Components/TravelItemContainer'
+import TravelItemContainer from './src/interface/Components/TravelItemContainer'
 
 export default function App() {
   return (
@@ -10,7 +10,6 @@ export default function App() {
       <TravelItemContainer />
       <TravelItemContainer />
       <TravelItemContainer />
-      <Text>NEW TRIP</Text>
       <Button
         title='+'
         onPress={()=> {/*** */}}
