@@ -3,16 +3,14 @@ import { v4 as uuidv4 } from 'uuid';
 export class Trip {
   public days : Day[]
   public totalBudget: number
-  public startDate: Date
-  public endDate: Date
+  public startDate: number
+  public endDate: number
   public duration: number
 
-  constructor(days, totalBudget, duration) {
-    this.days = days
+  constructor(startDate, endDate, totalBudget) {
     this.totalBudget = totalBudget
-    this.startDate = days[0].date
-    this.endDate = days[-1].date
-    this.duration = duration
+    this.startDate = startDate
+    this.endDate = endDate
   }
 }
 
