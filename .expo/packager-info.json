@@ -1,10 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 16256,
+  "expoServerNgrokUrl": "https://fv-xgw.anonymous.travelbudget.exp.direct",
+  "packagerNgrokUrl": "https://packager.fv-xgw.anonymous.travelbudget.exp.direct",
+  "ngrokPid": 16327,
   "webpackServerPort": null
 }

@@ -27,6 +27,7 @@ export default function App() {
 }
 
 function splitTrips(type: DateTypes, trips: Trip[]) {
+  console.log(type)
   switch (type) {
     case DateTypes.PAST:
       return trips.filter((trip) => trip.endDate < Date.now())
@@ -38,7 +39,7 @@ function splitTrips(type: DateTypes, trips: Trip[]) {
 }
 
 enum DateTypes {
-  PAST,
-  PRESENT,
-  FUTURE
+  PAST='PAST',
+  PRESENT='PRESENT',
+  FUTURE='FUTURE'
 }
